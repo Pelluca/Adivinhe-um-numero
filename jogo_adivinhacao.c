@@ -106,9 +106,7 @@ void fimdejogo() {
 int main() {
 
     abertura();
-
     dificuldade();
-
     escolhe();
 
     for(int i = 1; i <= numtentativas; i++) {
@@ -125,7 +123,6 @@ int main() {
     }
 
     pontuacao();
-
     fimdejogo();
 
 }
