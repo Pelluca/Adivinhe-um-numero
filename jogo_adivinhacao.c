@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "jogo_adivinhacao.h"
 
 int numerosecreto;
 int chutes;
@@ -8,7 +9,7 @@ int tentativas = 1;
 int numtentativas;
 double pontos = 1000;
 
-void abertura(){
+void abertura() {
     printf("*********************\n");
     printf("*     Bem-Vindo     *\n");
     printf("*********************\n\n");
